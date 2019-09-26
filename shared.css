@@ -11,6 +11,7 @@ body {
 .main-header {
   background: #2ddf5c;
   position: fixed;
+  top: 0;
   width: 100%;
   padding: 8px 16px;
   z-index: 1;
