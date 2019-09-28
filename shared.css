@@ -27,6 +27,12 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
+  height: 23px; /* applied for the icon */
+  display: inline-block; /* applied for the icon */
+}
+
+.main-header__brand img {
+  height: 100% /* 100% of the height of the parent (in order to work, the parent needs an height and a inline-block property defined */
 }
 
 .main-nav {
