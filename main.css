@@ -9,7 +9,7 @@ body {
 }
 
 #product-overview {
-  background-image: url("images/freedom.jpg");
+  background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent), url("images/freedom.jpg");
   background-size: cover; /* fits the image automatically as a cover */
   background-position: left 10% bottom 20%; /*moves the image by 10% to the right and 20% to the top */
   background-repeat: no-repeat;
